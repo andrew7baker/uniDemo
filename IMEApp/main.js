@@ -11,7 +11,7 @@ Vue.component('feedList',feedList)
 import me from './pages/me/me.vue'
 Vue.component('me',me)
 
-import my from './pages/me/me.vue'
+import my from './pages/my/my.vue'
 Vue.component('my',my)
 
 // import plugin from './pages/plugin/home.vue'
