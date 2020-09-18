@@ -13,6 +13,10 @@
 			"style": {}
 		},
 		{
+			"path": "pages/my/my",
+			"style": {}
+		},
+		{
 			"path": "pages/detail/detail",
 			"style": {}
 		}

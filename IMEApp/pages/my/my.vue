@@ -6,11 +6,6 @@
 				<block slot="backText">返回</block>
 				<block slot="content">导航栏</block>
 			</cu-custom>
-
-			
-			<cu-custom bgColor="bg-gradual-pink" >
-				<block slot="content">我的</block>
-			</cu-custom>
 	
 			<view class="cu-list menu" :class="[menuBorder?'sm-border':'',menuCard?'card-menu margin-top':'']">
 				<!-- item -->

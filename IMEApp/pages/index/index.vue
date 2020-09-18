@@ -16,6 +16,12 @@
 				</view>
 				<view :class="PageCur=='me'?'text-green':'text-gray'">我的</view>
 			</view>
+			<view class="action" @click="NavChange" data-cur="my">
+				<view class='cuIcon-cu-image'>
+					<image :src="'/static/tabbar/component' + [PageCur == 'my'?'_cur':''] + '.png'"></image>
+				</view>
+				<view :class="PageCur=='my'?'text-green':'text-gray'">新</view>
+			</view>
 		</view>
 	</view>
 </template>
